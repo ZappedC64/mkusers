@@ -81,3 +81,10 @@ echo -e "\n\nUpdated data in the array...\n"
 for line in "${CSVDATA[@]}"; do
   echo "$line"
 done
+
+#Print the os from the array CSVDATA
+echo -e "\n\nPrinting the OS from the array...\n"
+for line in "${CSVDATA[@]}"; do
+  os=$(echo "$line" | cut -d',' -f4)
+  echo "$os"
+done
