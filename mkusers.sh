@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script creates a new user on the target servers based on a template user
 # Author: Raj Wurttemberg
-# Date: 20-Jan-2024
+# Date: 27-Jan-2024
 # Version: 1.0
 # Usage: mkusers.sh -f <filename>
 # -f <filename> is the name of the csv file that contains the user data
